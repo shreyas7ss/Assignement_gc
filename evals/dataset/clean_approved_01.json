@@ -1,0 +1,17 @@
+{
+  "sample_id": "clean_approved_01",
+  "quality": "clean",
+  "synthetic": true,
+  "document": "docs/clean_approved_01.pdf",
+  "ground_truth": {
+    "invoice_number": "ACME-INV-2026-001",
+    "consignee_name": "ACME Corporation Ltd",
+    "hs_code": "847130",
+    "port_of_loading": "Shanghai",
+    "port_of_discharge": "Los Angeles",
+    "incoterms": "FOB",
+    "goods_description": "Portable computers",
+    "gross_weight": "1200 kg"
+  },
+  "expected_decision": "auto_approve"
+}

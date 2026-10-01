@@ -1,0 +1,26 @@
+customer: acme_demo
+fields:
+  consignee_name:
+    expected: ACME Corporation Ltd
+    normalizer: text
+  hs_code:
+    expected: "847130"
+    normalizer: hs_code
+  port_of_loading:
+    expected: Shanghai
+    normalizer: text
+  port_of_discharge:
+    expected: Los Angeles
+    normalizer: text
+  incoterms:
+    expected: FOB
+    normalizer: text
+  goods_description:
+    expected: Portable computers
+    normalizer: text
+  gross_weight:
+    expected: 1200 kg
+    normalizer: weight
+  invoice_number:
+    expected: ACME-INV-2026-001
+    normalizer: identifier

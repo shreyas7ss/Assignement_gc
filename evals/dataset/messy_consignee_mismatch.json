@@ -1,0 +1,17 @@
+{
+  "sample_id": "messy_consignee_mismatch",
+  "quality": "messy_scanned",
+  "synthetic": true,
+  "document": "docs/messy_consignee_mismatch.pdf",
+  "ground_truth": {
+    "invoice_number": "ACME-INV-2026-001",
+    "consignee_name": "ACME Trading Co.",
+    "hs_code": "847130",
+    "port_of_loading": "Shanghai",
+    "port_of_discharge": "Los Angeles",
+    "incoterms": "FOB",
+    "goods_description": "Portable computers",
+    "gross_weight": "1200 kg"
+  },
+  "expected_decision": "amendment_request"
+}

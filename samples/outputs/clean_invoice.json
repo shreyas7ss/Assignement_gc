@@ -1,0 +1,100 @@
+{
+  "run_id": "bb314c22d5e94fc9bffde1b37ad96eb5",
+  "shipment_id": "42da94f943594849a52e3e511a316f5f",
+  "document_name": "clean_invoice.pdf",
+  "fields": [
+    {
+      "field": "consignee_name",
+      "value": "ACME Corporation Ltd",
+      "confidence": 1.0,
+      "source_quote": "Consignee: ACME Corporation Ltd",
+      "page": 1,
+      "status": "match",
+      "found": "ACME Corporation Ltd",
+      "expected": "ACME Corporation Ltd",
+      "reason": "Value matches the customer rule after normalization."
+    },
+    {
+      "field": "hs_code",
+      "value": "847130",
+      "confidence": 1.0,
+      "source_quote": "HS Code: 847130",
+      "page": 1,
+      "status": "match",
+      "found": "847130",
+      "expected": "847130",
+      "reason": "Value matches the customer rule after normalization."
+    },
+    {
+      "field": "port_of_loading",
+      "value": "Shanghai",
+      "confidence": 1.0,
+      "source_quote": "Port of Loading: Shanghai",
+      "page": 1,
+      "status": "match",
+      "found": "Shanghai",
+      "expected": "Shanghai",
+      "reason": "Value matches the customer rule after normalization."
+    },
+    {
+      "field": "port_of_discharge",
+      "value": "Los Angeles",
+      "confidence": 1.0,
+      "source_quote": "Port of Discharge: Los Angeles",
+      "page": 1,
+      "status": "match",
+      "found": "Los Angeles",
+      "expected": "Los Angeles",
+      "reason": "Value matches the customer rule after normalization."
+    },
+    {
+      "field": "incoterms",
+      "value": "FOB",
+      "confidence": 1.0,
+      "source_quote": "Incoterms: FOB",
+      "page": 1,
+      "status": "match",
+      "found": "FOB",
+      "expected": "FOB",
+      "reason": "Value matches the customer rule after normalization."
+    },
+    {
+      "field": "goods_description",
+      "value": "Portable computers",
+      "confidence": 1.0,
+      "source_quote": "Goods Description: Portable computers",
+      "page": 1,
+      "status": "match",
+      "found": "Portable computers",
+      "expected": "Portable computers",
+      "reason": "Value matches the customer rule after normalization."
+    },
+    {
+      "field": "gross_weight",
+      "value": "1200 kg",
+      "confidence": 1.0,
+      "source_quote": "Gross Weight: 1200 kg",
+      "page": 1,
+      "status": "match",
+      "found": "1200 kg",
+      "expected": "1200 kg",
+      "reason": "Value matches the customer rule after normalization."
+    },
+    {
+      "field": "invoice_number",
+      "value": "ACME-INV-2026-001",
+      "confidence": 1.0,
+      "source_quote": "Invoice Number: ACME-INV-2026-001",
+      "page": 1,
+      "status": "match",
+      "found": "ACME-INV-2026-001",
+      "expected": "ACME-INV-2026-001",
+      "reason": "Value matches the customer rule after normalization."
+    }
+  ],
+  "decision": {
+    "outcome": "auto_approve",
+    "reasoning": "All required fields matched the customer rules with sufficient confidence.",
+    "amendment_draft": []
+  }
+}
